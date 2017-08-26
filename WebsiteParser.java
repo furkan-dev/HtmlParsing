@@ -1,3 +1,9 @@
+//
+// coded by furkan-dev
+//
+// licensed by gnu-general-license
+//
+
 import java.io.IOException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -9,7 +15,7 @@ public class WebsiteParser {
 	public static void main(String args[]) throws IOException{
 		
 		Document doc;
-		doc = Jsoup.connect("http://720pizle.com/").get();
+		doc = Jsoup.connect("url").get();
 		
 		Elements links = doc.getElementsByTag("a");
 		for(Element link: links) {
