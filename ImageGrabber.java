@@ -1,3 +1,9 @@
+//
+// coded by furkan-dev
+//
+// licensed by gnu-general-license
+//
+
 import java.io.IOException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
