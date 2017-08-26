@@ -15,7 +15,7 @@ public class ImageGrabber {
 	public static void main(String args[]) throws IOException{
 		
 		Document doc;
-		doc = Jsoup.connect("http://720pizle.com/power-rangers.html").get();
+		doc = Jsoup.connect("url").get();
 		
 		Elements images = doc.select("img[src~=(?i)\\.(png|jpe?g|gif)]");
 		for(Element image: images) {
